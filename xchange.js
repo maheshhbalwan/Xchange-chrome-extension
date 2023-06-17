@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const convert = document.getElementById("convert");
   const result = document.getElementById("result");
 
-  const apiKey = "Add API KEY HERE";
+  const apiKey = "JTjczYwlRsiuZyQtXs8QHA==00y8LC3KiaB8D4Rw";
   const apiUrl = "https://api.api-ninjas.com/v1/exchangerate?pair=";
 
   convert.addEventListener("click", () => {
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
       })
       .catch((error) => {
         console.error("Request failed", error);
-        result.innerHTML = "An error occurred please try again later";
+        result.innerHTML = "An error occurred, please try again later";
       });
   });
 });
